@@ -49,12 +49,21 @@ body {
 }
 
 
+article {
+  margin-bottom: 8rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 
 .l-container {
   max-width: 70ch;
   margin: 0 auto;
   padding: 1rem;
-  background: red;
+  /*background: red;*/
 }
 
 main {
@@ -94,6 +103,20 @@ a {
   */
 }
 
+img {
+  border-radius: 1rem;
+}
+
+
+
+
+
+
+/*
+//
+//  Utility [ u- ]
+//
+*/
 .text--left { text-align: left; }
 .text--center { text-align: center; }
 .text--right { text-align: right; }
@@ -101,3 +124,50 @@ a {
 .text--muted { opacity: .7; }
 
 .d--block { display: block; }
+
+.u-img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+/*
+//
+//  Typography [ t- ]
+//
+*/
+
+
+
+
+/*
+//
+//  Components [ c- ]
+//
+*/
+
+
+
+
+/*
+//
+//  Molecules [ m- ]
+//
+*/
+
+
+
+
+/*
+//
+//  Pages [ p- ]
+//
+*/
+.p-home {       background: red; }
+.p-poems {      background: orange; }
+.p-paintings {  background: yellow;}
+.p-projects {   background: green; }
+.p-contacts {   background: blue; }
