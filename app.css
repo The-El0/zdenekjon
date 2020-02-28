@@ -54,7 +54,8 @@ article {
 }
 
 footer {
-  margin-top: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -96,7 +97,10 @@ img {
 .text--center { text-align: center; }
 .text--right { text-align: right; }
 
+.text--bold { font-weight: bold; }
 .text--muted { opacity: .7; }
+
+.text--danger { color: red; }
 
 .d--block { display: block; }
 
