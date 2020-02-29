@@ -11,7 +11,7 @@
 
     <link
         rel="stylesheet"
-        href="app.css?v=4.4.3">
+        href="app.css?v=5.0">
 
 
     <!-- Open Graph Tags -->
@@ -77,9 +77,9 @@
                 <h1>
                     Poezie
                 </h1>
-                <p>
+                <!--p>
                     _TEXT
-                </p>
+                </p-->
                 <section class="c-card-container">
                     <!--
                     <div class="c-card">
@@ -162,7 +162,10 @@
                     Obrazy
                 </h1>
                 <p class="text--bold text--danger">
-                    #404 – todo__get_content_from__client
+                    #404
+                    <code class="d--none">
+                        TODO > getContentFromClient();
+                    </code>
                 </p>
             </main>
         </div>
@@ -180,9 +183,9 @@
                 <h1>
                     Projekty
                 </h1>
-                <p>
+                <!--p>
                     _TEXT
-                </p>
+                </p-->
                 <div class="m-timeline">
                     <section class="mi-timeline">
                         <h2 class="mi-timeline__year">
@@ -279,9 +282,9 @@
                 <h1>
                     Kontakty
                 </h1>
-                <p>
+                <!--p>
                     _TEXT
-                </p>
+                </p-->
                 <!--
                     microformats
                     https://developer.mozilla.org/en-US/docs/Web/HTML/microformats
@@ -289,11 +292,13 @@
                     TODO > get & parse data from JSON
                 -->
                 <div class="h-card">
+                    <!--
                     <img
                         src="//zdenekjon.cz/wp-content/uploads/2016/09/cropped-ja-1.jpg"
                         alt="Zdeněk Jon"
                         width="284"
                         class="u-photo">
+                    -->
                     <div class="t-label-value">
                         <span class="t-label">
                             Facebook
@@ -309,12 +314,8 @@
                         <span class="t-label">
                             E-mail
                         </span>
-                        <span class="t-value u-email">
-                            zdenek.jon@gmail.com
-                        </span>
-                        <span> | </span>
                         <a class="t-value u-email" href="mailto:zdenek.jon@gmail.com?subject=e_mail_from_web">
-                            poslat e-mail
+                            zdenek.jon@gmail.com
                         </a>
                     </div>
                     <div class="t-label-value">
@@ -332,7 +333,8 @@
                         <span class="t-value u-skype">
                             senhorkaido
                         </span>
-                        <!-- TODO > style -->
+                        <!--
+                            TODO > style
                         <hr>
                         <span> | </span>
                         <a class="t-value u-skype" href="skype:senhorkaido?call">
@@ -346,6 +348,7 @@
                         <a class="t-value u-skype" href="skype:senhorkaido?add">
                             přidat do kontaktů
                         </a>
+                        -->
                     </div>
                     <div class="t-label-value">
                         <span class="t-label">
@@ -354,6 +357,7 @@
                         <span class="t-value u-whatsapp">
                             +34 663 513 134
                         </span>
+                        <!--
                         <span> | </span>
                         <a
                             href="//api.whatsapp.com/send?phone=+34663513134&text=AhojZdenkuWhatsUpLink"
@@ -361,6 +365,7 @@
                             class="t-value u-whatsapp">
                             poslat zprávu
                         </a>
+                        -->
                     </div>
                 </div>
             </main>
@@ -369,7 +374,7 @@
 
 
     <footer>
-        <small class="text--muted">
+        <small class="footer-inner text--muted">
             Zdeněk Jon 2020 — všechna práva vyhrazena
         </small>
     </footer>

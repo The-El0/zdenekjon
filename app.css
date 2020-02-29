@@ -89,9 +89,15 @@ footer {
   padding-bottom: 2rem;
   text-align: center;
 }
+.footer-inner {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, .7);
+}
 
 
 .l-container {
+  flex-grow: grow;
   max-width: 44rem;
   margin: 0 auto;
   padding: 1rem;
@@ -152,6 +158,7 @@ hr::after {
 .text--danger { color: red; }
 
 .d--block { display: block; }
+.d--none { display: none; }
 
 .mt--1 { margin-top: 1rem; }
 .mb--1 { margin-bottom: 1rem; }
@@ -302,7 +309,8 @@ a {
 
 .p-intro,
 .p-paintings,
-.p-contacts {
+.p-contacts,
+.footer-inner {
   backdrop-filter: blur(1rem);
 }
 .p-intro main,
