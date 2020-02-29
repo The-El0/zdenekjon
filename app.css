@@ -50,7 +50,9 @@ body {
 
 
 article {
-  margin-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 
 footer {
@@ -61,7 +63,7 @@ footer {
 
 
 .l-container {
-  max-width: 70ch;
+  max-width: 44rem;
   margin: 0 auto;
   padding: 1rem;
   /*background: red;*/
@@ -83,6 +85,24 @@ img {
   border-radius: 1rem;
 }
 
+hr {
+  display: block;
+  width: 100%;
+  height: .1rem;
+  margin: 1rem 0;
+  border: 0;
+  background: red;
+}
+hr::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
