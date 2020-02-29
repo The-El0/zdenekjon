@@ -48,6 +48,7 @@ body {
   background-color: lightgrey;
   background-image: url('//zdenekjon.cz/wp-content/uploads/2016/08/Hexadekachoron.jpg');
   background-image: url('assets/img/pixabay.jpg');
+  background-image: url('assets/img/body.jpg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,6 +98,9 @@ footer {
   display: inline-block;
   padding: 1rem 1.5rem;
   background: rgba(255, 255, 255, .7);
+}
+footer a {
+  color: black;
 }
 
 
