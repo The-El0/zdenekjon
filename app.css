@@ -58,6 +58,7 @@ header {
   position: fixed;
   top: 2rem;
   left: 2rem;
+  z-index: 1;
 
   /*
   display: flex;
@@ -151,6 +152,9 @@ hr::after {
 .text--danger { color: red; }
 
 .d--block { display: block; }
+
+.mt--1 { margin-top: 1rem; }
+.mb--1 { margin-bottom: 1rem; }
 
 .u-img-responsive {
   width: 100%;
@@ -281,21 +285,31 @@ a {
 */
 /*
 .p-intro {      background-color: red; }
-.p-author {     background-color: orange; }
 .p-poetry {      background-color: yellow; }
 .p-paintings {  background-color: green;}
 .p-projects {   background-color: azur; }
+.p-author {     background-color: orange; }
 .p-contacts {   background-color: indigo; }
 */
 
+.p-intro {
+  font-size: 125%;
+}
+.p-projects .l-container {
+  max-width: 51rem;
+}
+
+
+
+.p-intro,
+.p-paintings,
+.p-author {
+  backdrop-filter: blur(1rem);
+}
+
+
 
 .p-projects {
-  /*
-  background-image: url('//zdenekjon.cz/wp-content/uploads/2016/08/Hexadekachoron.jpg');
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  */
 }
 .p-projects .l-container {
   max-width: none;
