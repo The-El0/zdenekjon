@@ -120,6 +120,10 @@ img {
   border-radius: 1rem;
 }
 
+figure {}
+figcaption { text-align: center; }
+
+
 hr {
   display: block;
   width: 100%;
@@ -258,6 +262,18 @@ a {
 .c-card__text {}
 
 
+/*
+//
+//  [ C ] gallery
+//
+*/
+.c-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+
 
 /*
 //
@@ -321,6 +337,12 @@ a {
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .1);
 }
 
+
+.p-paintings {
+}
+.p-paintings .l-container {
+  max-width: none;
+}
 
 
 .p-projects {
