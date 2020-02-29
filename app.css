@@ -47,7 +47,7 @@ body {
   /*font-family: "system";*/
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 1.6;
 
   background-color: lightgrey;
   background-image: url('//zdenekjon.cz/wp-content/uploads/2016/08/Hexadekachoron.jpg');
@@ -84,7 +84,6 @@ nav a {
   margin-left: 6rem;
   margin-bottom: 1rem;
   font-size: 2.4rem;
-  color: black;
 }
 
 
@@ -136,15 +135,15 @@ footer a {
 
 main {
   display: block;
-  padding: 2.5rem 4rem;
+  padding: 4rem 5rem;
 
-  /*background: rgba(255, 255, 255, .7);*/
-  background: white;
-  backdrop-filter: blur(1rem);
+  background: rgba(0, 0, 0, .1);
+  background: rgba(255, 255, 255, .8);
+
+  backdrop-filter: blur(14rem);
   border-color: transparent;
-  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .4);
   border-radius: .4rem;
-  border-radius: 0;
 }
 
 
@@ -164,7 +163,7 @@ hr {
   height: .4rem;
   margin: 4rem 0;
   border: 0;
-  background: grey;
+  background: rgba(255, 255, 255, .5);
 }
 hr::before {
   content: "";
@@ -202,6 +201,14 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  margin: 0;
+  margin-bottom: 1rem;
+
+  font-size: 2.4rem;
+  line-height: 1.4;
+}
+
 
 p {
   margin: 0;
@@ -210,7 +217,7 @@ p {
 
 a {
   text-decoration-skip-ink: auto;
-  color: purple;
+  color: black;
 
   cursor: pointer;
 
@@ -313,21 +320,18 @@ a:hover {
 //
 */
 .m-timeline {
-  display: flex;
-  /*justify-content: space-around;*/
-  flex-direction: row;
 }
 /* Item  ( mi- MoleculeItem )*/
 .mi-timeline {
-  padding: 1rem;
-  flex-basis: 20%;
-  flex-shrink: 0;
+  position: relative;
 }
 .mi-timeline__year {
+  position: absolute;
+  top: -1.6rem;
+  left: -16rem;
   font-size: 4rem;
 }
 .mi-timeline__title {
-  font-size: 3rem;
 }
 
 
@@ -368,6 +372,7 @@ footer {
 
 .p-projects {
 }
+
 
 
 
