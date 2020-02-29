@@ -285,11 +285,10 @@ a {
 */
 /*
 .p-intro {      background-color: red; }
-.p-poetry {      background-color: yellow; }
-.p-paintings {  background-color: green;}
-.p-projects {   background-color: azur; }
-.p-author {     background-color: orange; }
-.p-contacts {   background-color: indigo; }
+.p-poetry {      background-color: orange; }
+.p-paintings {  background-color: yellow;}
+.p-projects {   background-color: green; }
+.p-contacts {   background-color: azur; }
 */
 
 .p-intro {
@@ -303,12 +302,12 @@ a {
 
 .p-intro,
 .p-paintings,
-.p-author {
+.p-contacts {
   backdrop-filter: blur(1rem);
 }
 .p-intro main,
 .p-paintings main,
-.p-author main {
+.p-contacts main {
   background: rgba(255, 255, 255, .7);
   border-color: transparent;
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .1);
