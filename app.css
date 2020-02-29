@@ -306,6 +306,13 @@ a {
 .p-author {
   backdrop-filter: blur(1rem);
 }
+.p-intro main,
+.p-paintings main,
+.p-author main {
+  background: rgba(255, 255, 255, .7);
+  border-color: transparent;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .1);
+}
 
 
 
