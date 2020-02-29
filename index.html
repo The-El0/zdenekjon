@@ -11,7 +11,7 @@
 
     <link
         rel="stylesheet"
-        href="app.css?v=3.9">
+        href="app.css?v=4.4">
 
 
     <!-- Open Graph Tags -->
@@ -21,6 +21,24 @@
     <meta name="msapplication-TileImage" content="http://zdenekjon.cz/wp-content/uploads/2016/10/cropped-jon-270x270.jpg">
 </head>
 <body>
+    <header>
+        <h1 class="c-logo">
+            <a href="#p-intro">
+                Zdeněk Jon
+                <small class="d--block text--muted">
+                    poeta & malíř
+                </small>
+            </a>
+        </h1>
+        <nav>
+            <a href="#p-poetry">Poezie</a>
+            <a href="#p-paintings">Obrazy</a>
+            <a href="#p-projects">Projekty</a>
+            <div>• • •</div>
+            <a href="#p-author">Autor</a>
+            <a href="#p-contacts">Kontakt</a>
+        </nav>
+    </header>
     <!--
     ••••••••••••••••••
 
@@ -28,73 +46,33 @@
 
     ••••••••••••••••••
     -->
-    <h1 class="c-logo">
-        Zdeněk Jon – INTRO
-        <small class="d--block text--muted">
-            poeta & malíř
-        </small>
-    </h1>
-    <article class="p-intro">
+    <article class="p-intro" id="p-intro">
         <div class="l-container">
             <main>
-                <h1>
-                    Zdeněk Jon – INTRO
-                    <small class="d--block text--muted">
-                        poeta & malíř
-                    </small>
-                </h1>
                 <p>
-                    Abychom mohli nalézt sami sebe, zkoušíme naplno rozsvítit vlastní život skrze vše, co chceme dělat a po čem toužíme.  Odložíme logické  uvažování a vytaháme ze svých vnitřních sklepů všechny emoce a pocity, ať jsou jaké jsou. Každý střípek uvnitř naší hlavy je důležitý. Jakmile poznáme horko i zimu, která se v nás nachází, tak se sami sobě trochu poodhalíme a možná zjistíme, kdo jsme.
+                    <q>
+                        Abychom mohli nalézt sami sebe, zkoušíme naplno rozsvítit vlastní život skrze vše, co chceme dělat a po čem toužíme.  Odložíme logické  uvažování a vytaháme ze svých vnitřních sklepů všechny emoce a pocity, ať jsou jaké jsou. Každý střípek uvnitř naší hlavy je důležitý. Jakmile poznáme horko i zimu, která se v nás nachází, tak se sami sobě trochu poodhalíme a možná zjistíme, kdo jsme.
+                    </q>
                 </p>
                 <p>
-                    Vnímám tuto cestu sebepoznání a má kresba , malba i poezie jsou zobrazením tohoto procesu.
+                    <q>
+                        Vnímám tuto cestu sebepoznání a má kresba , malba i poezie jsou zobrazením tohoto procesu.
+                    </q>
                 </p>
-                <p class="text--right">
+                <em class="text--right">
                     Zdeněk Jon
-                </p>
+                </em>
             </main>
         </div>
     </article>
     <!--
     ••••••••••••••••••
 
-        01 – Autor
+        01 – Poezie
 
     ••••••••••••••••••
     -->
-    <article class="p-author">
-        <div class="l-container">
-            <main>
-                <img
-                    src="http://zdenekjon.cz/wp-content/uploads/2016/08/Zdenek-Jon-768x512.jpg"
-                    alt="Zdeněk Jon"
-                    class="u-img-responsive">
-                <h1>
-                    Zdeněk Jon
-                    <small class="d--block text--muted">
-                        poeta & malíř
-                    </small>
-                </h1>
-                <p>
-                    Abychom mohli nalézt sami sebe, zkoušíme naplno rozsvítit vlastní život skrze vše, co chceme dělat a po čem toužíme.  Odložíme logické  uvažování a vytaháme ze svých vnitřních sklepů všechny emoce a pocity, ať jsou jaké jsou. Každý střípek uvnitř naší hlavy je důležitý. Jakmile poznáme horko i zimu, která se v nás nachází, tak se sami sobě trochu poodhalíme a možná zjistíme, kdo jsme.
-                </p>
-                <p>
-                    Vnímám tuto cestu sebepoznání a má kresba , malba i poezie jsou zobrazením tohoto procesu.
-                </p>
-                <p class="text--right">
-                    Zdeněk Jon
-                </p>
-            </main>
-        </div>
-    </article>
-    <!--
-    ••••••••••••••••••
-
-        02 – Poezie
-
-    ••••••••••••••••••
-    -->
-    <article class="p-poems">
+    <article class="p-poetry" id="p-poetry">
         <div class="l-container">
             <main>
                 <h1>
@@ -174,11 +152,11 @@
     <!--
     ••••••••••••••••••
 
-        03 – Obrazy
+        02 – Obrazy
 
     ••••••••••••••••••
     -->
-    <article class="p-paintings">
+    <article class="p-paintings" id="p-paintings">
         <div class="l-container">
             <main>
                 <h1>
@@ -193,11 +171,11 @@
     <!--
     ••••••••••••••••••
 
-        04 – Projekty
+        03 – Projekty
 
     ••••••••••••••••••
     -->
-    <article class="p-projects">
+    <article class="p-projects" id="p-projects">
         <div class="l-container">
             <main>
                 <h1>
@@ -289,7 +267,38 @@
             </main>
         </div>
     </article>
+    <!--
+    ••••••••••••••••••
 
+        04 – Autor
+
+    ••••••••••••••••••
+    -->
+    <article class="p-author" id="p-author">
+        <div class="l-container">
+            <main>
+                <img
+                    src="http://zdenekjon.cz/wp-content/uploads/2016/08/Zdenek-Jon-768x512.jpg"
+                    alt="Zdeněk Jon"
+                    class="u-img-responsive">
+                <h1>
+                    Zdeněk Jon
+                    <small class="d--block text--muted">
+                        poeta & malíř
+                    </small>
+                </h1>
+                <p>
+                    Abychom mohli nalézt sami sebe, zkoušíme naplno rozsvítit vlastní život skrze vše, co chceme dělat a po čem toužíme.  Odložíme logické  uvažování a vytaháme ze svých vnitřních sklepů všechny emoce a pocity, ať jsou jaké jsou. Každý střípek uvnitř naší hlavy je důležitý. Jakmile poznáme horko i zimu, která se v nás nachází, tak se sami sobě trochu poodhalíme a možná zjistíme, kdo jsme.
+                </p>
+                <p>
+                    Vnímám tuto cestu sebepoznání a má kresba , malba i poezie jsou zobrazením tohoto procesu.
+                </p>
+                <p class="text--right">
+                    Zdeněk Jon
+                </p>
+            </main>
+        </div>
+    </article>
     <!--
     ••••••••••••••••••
 
@@ -297,7 +306,7 @@
 
     ••••••••••••••••••
     -->
-    <article class="p-contacts">
+    <article class="p-contacts" id="p-contacts">
         <div class="l-container">
             <main>
                 <h1>
