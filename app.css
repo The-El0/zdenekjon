@@ -47,6 +47,7 @@ body {
 
   background-color: lightgrey;
   background-image: url('//zdenekjon.cz/wp-content/uploads/2016/08/Hexadekachoron.jpg');
+  background-image: url('assets/img/pixabay.jpg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,6 +70,9 @@ header {
 nav {}
 nav a {
   display: block;
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  color: white;
 }
 
 article {
@@ -126,7 +130,7 @@ figcaption { text-align: center; }
 hr {
   display: block;
   width: 100%;
-  height: .1rem;
+  height: .4rem;
   margin: 4rem 0;
   border: 0;
   background: grey;
@@ -241,15 +245,17 @@ a {
 //
 */
 .c-logo {
-  font-size: 2rem;
+  font-size: 4rem;
   line-height: 1;
   font-weight: bold;
 }
 .c-logo a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
-
+.c-logo small {
+  font-size: 2.4rem;
+}
 
 
 .c-card-container {}
@@ -276,11 +282,11 @@ a {
   filter: blur(1rem);
   opacity: .5;
 }
-*/
 .c-gallery figure:not(:hover) {
   filter: blur(1rem);
   opacity: .5;
 }
+*/
 
 
 /*
