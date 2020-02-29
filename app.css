@@ -84,6 +84,10 @@ nav a {
   margin-left: 6rem;
   margin-bottom: 1rem;
   font-size: 2.4rem;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 
 
@@ -274,7 +278,7 @@ a:hover {
 }
 .c-logo small {
   font-size: 1.6rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   text-transform: uppercase;
 }
 
