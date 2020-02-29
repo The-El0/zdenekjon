@@ -62,19 +62,26 @@ body {
 
 header {
   position: fixed;
-  top: 2rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
   z-index: 1;
 
-  /*
   display: flex;
-  flex-direction: column;
-  */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+
+  background: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(3rem);
 }
 
-nav {}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
 nav a {
-  display: block;
+  margin-left: 6rem;
   margin-bottom: 1rem;
   font-size: 2.4rem;
   color: white;
@@ -95,12 +102,15 @@ article {
 
 footer {
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   text-align: center;
+
+  background: rgba(0, 0, 0, .3);
 }
 .footer-inner {
   display: inline-block;
   padding: 1rem 1.5rem;
+
   background: rgba(255, 255, 255, .7);
 }
 footer a {
@@ -119,11 +129,13 @@ main {
   display: block;
   padding: 2rem 3rem;
 
-  background: rgba(255, 255, 255, .7);
+  /*background: rgba(255, 255, 255, .7);*/
+  background: white;
   backdrop-filter: blur(1rem);
   border-color: transparent;
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .1);
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
+  border-radius: 0;
 }
 
 
@@ -227,6 +239,7 @@ a {
 //
 */
 .c-logo {
+  margin-bottom: 0;
   font-family: 'Quicksand', sans-serif;
   font-size: 4rem;
   line-height: 1;
@@ -241,9 +254,9 @@ a {
 }
 .c-logo small {
   font-size: 1.6rem;
-  letter-spacing: .4rem;
+  letter-spacing: .2rem;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
 }
 
 
