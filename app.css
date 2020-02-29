@@ -45,7 +45,12 @@ body {
   line-height: 1.5;
   font-family: "system";
 
-  background: lightgrey;
+  background-color: lightgrey;
+  background-image: url('//zdenekjon.cz/wp-content/uploads/2016/08/Hexadekachoron.jpg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -54,6 +59,13 @@ article {
   align-items: center;
   min-height: 100vh;
 }
+@media (min-width: 768px) {
+  article {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
 
 footer {
   padding-top: 4rem;
@@ -198,6 +210,12 @@ a {
 //  Components [ c- ]
 //
 */
+.c-logo {
+  
+}
+
+
+
 .c-card-container {}
 
 .c-card {
@@ -239,18 +257,21 @@ a {
 //  Pages [ p- ]
 //
 */
-.p-home {       background: red; }
-.p-poems {      background: orange; }
-.p-paintings {  background: yellow;}
-.p-contacts {   background: blue; }
+.p-intro {      background-color: red; }
+.p-author {     background-color: orange; }
+.p-poems {      background-color: yellow; }
+.p-paintings {  background-color: green;}
+.p-projects {   background-color: azur; }
+.p-contacts {   background-color: indigo; }
 
 
 .p-projects {
-  background-color: green;
+  /*
   background-image: url('//zdenekjon.cz/wp-content/uploads/2016/08/Hexadekachoron.jpg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
+  */
 }
 .p-projects .l-container {
   max-width: none;
