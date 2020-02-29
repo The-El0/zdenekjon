@@ -22,7 +22,9 @@
 }
 */
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -225,16 +227,23 @@ a {
 //
 */
 .c-logo {
+  font-family: 'Quicksand', sans-serif;
   font-size: 4rem;
   line-height: 1;
-  font-weight: bold;
+  font-weight: 300;
 }
 .c-logo a {
   color: white;
   text-decoration: none;
 }
+.c-logo span {
+  letter-spacing: -.1rem;
+}
 .c-logo small {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 
@@ -242,7 +251,10 @@ a {
 .c-card {
   margin-bottom: 4rem;
 }
-.c-card__title {}
+.c-card__title {
+  font-size: 4rem;
+  font-family: 'Quicksand', sans-serif;
+}
 .c-card__text {
   font-size: 2rem;
 }
