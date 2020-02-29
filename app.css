@@ -156,6 +156,22 @@ a {
 }
 
 
+.t-label-value {
+  display: flex;
+}
+
+.t-label {
+  flex-basis: 10rem;
+  opacity: .7;
+}
+.t-label::after {
+  content: ":";
+  margin-right: 1rem;
+}
+
+.t-value {}
+
+
 
 /*
 //
