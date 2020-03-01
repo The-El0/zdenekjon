@@ -1,0 +1,31 @@
+{
+  "name": "@the-el0/zdenekjon",
+  "version": "0.1.0",
+  "description": "zdenekjon",
+  "author": "the-el0@protonmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:The-El0/zdenekjon.git"
+  },
+  "private": "false",
+  "engines": {
+    "node": ">= 10.16.0",
+    "npm": ">= 6.13.7"
+  },
+  "scripts": {
+    "serve": "live-server --watch=index.html --open=index.html",
+    "sass": "node-sass --watch src/styles -o build --output-style compressed -q --source-map-root file://${PWD}/ --source-map-embed true",
+    "build": "node-sass --include-path scss styles/app.scss app.css --source-map-root file://${PWD}/ --source-map-embed true",
+    "start": "concurrently  \" npm run sass \" \" npm run serve  \" "
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "concurrently": "^5.1.0",
+    "postcss": "^7.0.27"
+  }
+}
