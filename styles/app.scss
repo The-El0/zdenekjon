@@ -27,3 +27,52 @@
     color: $black;
   }
 }
+
+
+
+//
+//  Navigation – Mobile
+//
+@media (max-width: $mobile-max) {
+  nav {
+    position: relative;
+    width: $space * 3;
+    height: $space * 3;
+    //background: RED;
+
+    a {
+      display: none;
+    }
+
+    &::before {
+      content: "MENU";
+      position: absolute;
+  top: 0;
+      left: 0;
+      right: 0;
+
+      text-align: center;
+    }
+  }
+}
+
+
+
+@media (min-width: $tablet) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      margin-left: 6rem;
+      margin-bottom: 1rem;
+      font-size: 2.4rem;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+

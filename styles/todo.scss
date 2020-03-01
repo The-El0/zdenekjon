@@ -65,12 +65,6 @@ body {
 
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,30 +72,28 @@ header {
 
   background: rgba(255, 255, 255, .01);
   backdrop-filter: blur(3rem);
+
+  @media (min-width: $tablet) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
 }
 
-nav {
-  display: flex;
-  justify-content: space-evenly;
-}
-nav a {
-  margin-left: 6rem;
-  margin-bottom: 1rem;
-  font-size: 2.4rem;
-  text-decoration: none;
-}
-nav a:hover {
-  text-decoration: underline;
-}
+
 
 
 article {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-}
-@media (min-width: 768px) {
-  article {
+  margin-bottom: $space * 4;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+
+    min-height: 100vh;
+    margin-bottom: 0;
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
@@ -131,9 +123,12 @@ footer a {
   flex-shrink: 0;
 
   max-width: 66ch;
-  min-width: 42rem;
   margin: 0 auto;
   padding: 1rem;
+
+  @media (min-width: $tablet) {
+    min-width: 42rem;
+  }
 }
 /*
 .l-container[data-size="sm"] { max-width: 44rem; }
@@ -143,7 +138,7 @@ footer a {
 
 main {
   display: block;
-  padding: 4rem 5rem;
+  padding: $space * 2;
 
   background: rgba(0, 0, 0, .1);
   background: rgba(255, 255, 255, .8);
@@ -152,6 +147,10 @@ main {
   border-color: transparent;
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .4);
   border-radius: .4rem;
+
+  @media (min-width: $tablet) {
+    padding: 4rem 5rem;
+  }
 }
 
 
