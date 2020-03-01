@@ -1,0 +1,22 @@
+$space: 1rem;
+
+$white: white;
+$black: black;
+
+
+
+//
+//  z-index
+//
+//
+//  usage
+//  -----
+//  .modal {
+//    z-index: z-index(modal);
+//  }
+//
+
+$zindex: (
+  modal:    9,
+  backdrop: 8,
+);

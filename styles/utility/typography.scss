@@ -1,0 +1,198 @@
+@import "../variables";
+
+
+$space: 1rem;
+
+
+//•••••••••••••••••••••••••••••••
+//
+//
+//      INDEX
+//      -----
+//
+//      • font-family
+//      • font-size
+//      • font-style
+//      • line-height
+//      • font-weight
+//      • text-align
+//      • text-transform
+//      • letter-spacing
+//      • white-space
+//      • vertical-align
+//
+//
+//•••••••••••••••••••••••••••••••
+
+
+
+
+//
+//  Typeface
+//
+.font {
+  &--default {    font-family: serif; }
+  &--monospace {  font-family: monospace; }
+  &--arial {      font-family: Arial; }
+}
+
+
+
+
+//
+//  Size
+//
+.fs {
+  &--8 {  font-size: $space; }
+  &--9 {  font-size: $space; }
+  &--10 { font-size: $space; }
+  &--11 { font-size: $space; }
+  &--12 { font-size: $space; }
+  &--13 { font-size: $space; }
+  &--14 { font-size: $space; }
+  &--16 { font-size: $space; }
+  &--18 { font-size: $space; }
+  &--20 { font-size: $space; }
+  &--24 { font-size: $space; }
+  &--32 { font-size: $space; }
+}
+
+
+
+
+//
+//  Style
+//
+.fs {
+  &--normal { font-style: normal; }
+  &--italic { font-style: italic; }
+}
+
+
+
+
+//
+//  LINE height
+//
+.lh {
+  &--1 {  line-height: 1; }
+  &--sm { line-height: 1.2; }
+  &--md { line-height: 1.4; }
+  &--lg { line-height: 1.6; }
+  &--0 {  line-height: 0; }
+}
+
+
+
+
+
+//
+//  Weight
+//
+.fw {
+  &--300 {   font-weight: 300; }
+  &--400 {   font-weight: 400; }
+  &--600 {   font-weight: 600; }
+  &--700 {   font-weight: 700; }
+}
+
+
+
+
+//
+//  Alignment
+//
+.ta {
+  &--left {   text-align: left; }
+  &--right {  text-align: right; }
+  &--center { text-align: center; }
+}
+
+
+
+
+//
+//  TEXT Transform
+//
+.tt {
+  &--uppercase {  text-transform: uppercase; }
+  &--lowercase {  text-transform: lowercase; }
+  &--capitalize { text-transform: capitalize; }
+  &--none {       text-transform: none; }
+}
+
+
+
+
+//
+//  LETTER spacing
+//
+.ls {
+  &--1 { letter-spacing: 1px; }
+  &--2 { letter-spacing: 2px; }
+  &--3 { letter-spacing: 3px; }
+  &--4 { letter-spacing: 4px; }
+  &--0 { letter-spacing: 0; }
+}
+
+
+
+
+//
+//  WHITE space
+//
+.ws {
+  &--nowrap {   white-space: nowrap; }
+  &--pre {      white-space: pre; }
+  &--pre-line { white-space: pre-line; }
+  &--pre-wrap { white-space: pre-wrap; }
+  &--normal {   white-space: normal; }
+}
+
+
+
+
+//
+//  VERTICAL alignment
+//
+.va {
+  &--top {            vertical-align: top; }
+  &--middle {         vertical-align: middle; }
+  &--bottom {         vertical-align: bottom; }
+  &--baseline {       vertical-align: baseline; }
+  &--text-top {       vertical-align: text-top; }
+  &--text-bottom  {   vertical-align: text-bottom; }
+  &--sub {            vertical-align: sub; }
+  &--sup {            vertical-align: super; }
+}
+
+
+
+
+
+
+//
+//  TEXT
+//
+.text {
+  &--underline {      text-decoration: underline; }
+  &--break-word {     word-break: break-word; }
+  &--line-through {   text-decoration: line-through; }
+  &--readability {    max-width: 70ch; }
+  &--muted {          opacity: .7; }
+}
+
+
+
+
+
+
+
+
+//
+//  FUNCTION truncate
+//
+.text--truncate {
+  //@include truncate();
+}
+
