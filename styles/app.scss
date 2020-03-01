@@ -3,6 +3,9 @@
 }
 
 
+$white: black;
+$black: white;
+
 /*
 //
 //  this sets 1rem to 10px   ( 1rem === 10px )
@@ -108,7 +111,7 @@ footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 
-  color: white;
+  color: $white;
   text-align: center;
 
   background: rgba(0, 0, 0, .5);
@@ -118,7 +121,7 @@ footer {
   padding: 1rem 1.5rem;
 }
 footer a {
-  color: white;
+  color: $white;
 }
 
 
@@ -221,7 +224,7 @@ p {
 
 a {
   text-decoration-skip-ink: auto;
-  color: black;
+  color: $black;
 
   cursor: pointer;
 
@@ -270,7 +273,7 @@ a:hover {
   font-weight: 300;
 }
 .c-logo a {
-  color: black;
+  color: $black;
   text-decoration: none;
 }
 .c-logo span {
@@ -390,7 +393,7 @@ footer {
   border-radius: 0;
 }
 .p-theme--night .c-card {
-  color: white;
+  color: $white;
 }
 
 
