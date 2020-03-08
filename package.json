@@ -16,7 +16,8 @@
     "serve": "live-server --watch=index.html --open=index.html",
     "sass": "node-sass --watch styles -o build --output-style compressed -q --source-map-root file://${PWD}/ --source-map-embed true",
     "build": "node-sass --include-path scss styles/app.scss app.css --source-map-root file://${PWD}/ --source-map-embed true",
-    "start": "concurrently  \" npm run sass \" \" npm run serve  \" "
+    "start": "concurrently  \" npm run sass \" \" npm run serve  \" ",
+    "autoprefixer": "postcss *.css --use autoprefixer -d build/"
   },
   "dependencies": {
     "live-server": "^1.2.1",
@@ -31,3 +32,4 @@
     "postcss-cli": "^7.1.0"
   }
 }
+
