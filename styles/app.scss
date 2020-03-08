@@ -38,7 +38,6 @@
     position: relative;
     width: $space * 3;
     height: $space * 3;
-    //background: RED;
 
     a {
       display: none;
@@ -47,7 +46,7 @@
     &::before {
       content: "MENU";
       position: absolute;
-  top: 0;
+      top: 0;
       left: 0;
       right: 0;
 
@@ -76,3 +75,20 @@
   }
 }
 
+
+
+
+//
+//  Shrink Header onScroll
+//
+header {
+  transition: all 150ms ease-in-out;
+}
+.js__shrink-navigation {
+  header {
+    @media (min-width: $tablet) {
+      transform: scale(.5);
+      &:hover { transform: scale(1); }
+    }
+  }
+}
